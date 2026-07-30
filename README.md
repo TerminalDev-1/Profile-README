@@ -1,45 +1,59 @@
-# Profile-README
-Hello this is my profile read me 
+Hello, this is my profile README
 
+Hey, I'm TerminalDev 👋
 
-# Hey, I'm TerminalDev 👋
+I build software with AI rather than manually writing the code myself.
 
-I build software with AI rather than manually writing most of the code myself.
+All of the code in my software projects is AI-generated. My main tool is OpenAI Codex, although I also use Claude Code and Google Antigravity depending on the project.
 
-My main tool is **OpenAI Codex**, although I also use **Claude Code** and **Google Antigravity** depending on the project. I provide the ideas, requirements, direction, testing, corrections, and decisions, while the coding tools generate the code.
+I provide the ideas, requirements, direction, testing, feedback, and final decisions, while the coding tools generate, inspect, debug, and modify the code.
 
-## What I build
+What I build
 
 My main development interests include:
 
-- **Brawl Stars private servers**
-- **Transformer-based models**
+- Supercell private servers
+- Transformer-based models
 - Small models trained for narrow tasks
 - Occasional larger language-model experiments
 - AI-generated tools and software
 - Windows-related experiments and projects
 
-One of my larger model projects was **HyperAI R1-325M**, a 325-million-parameter GPT-style reasoning model with tool calling and a 6K context window.
+I am well-versed in the Supercell private-server space and have worked on private servers for games including Brawl Stars and Squad Busters.
+
+My private-server work can involve server logic, client compatibility, protocol implementation, matchmaking, battles, progression systems, databases, shops, rewards, clubs, leaderboards, events, and other game systems.
+
+One of my larger model projects was HyperAI R1-325M, a 325-million-parameter GPT-style reasoning model with tool calling and a 6K context window.
 
 I have also trained much smaller models designed for specific tasks, including models that can use basic tools such as retrieving the system date and time.
 
-## How I develop
+How I develop
 
 I do not consider myself a traditional manual programmer.
 
-I build through **AI-assisted development and vibe coding**. I do not normally write the code manually, and the code in my projects is generated using AI.
+I build through AI-assisted development and vibe coding. I do not manually write or edit the code in my projects. All project code is generated and modified using AI coding tools.
 
-That does not mean giving an AI one sentence and blindly accepting whatever it produces. My workflow involves deciding what a project should do, explaining the intended behaviour, directing the implementation, testing the results, finding bugs, correcting mistakes, and repeatedly iterating until the project works properly.
+That does not mean giving an AI one sentence and blindly accepting whatever it produces.
+
+My workflow involves deciding what a project should do, explaining the intended behaviour, directing the implementation, running the project, and visually inspecting and testing how it behaves.
+
+When I notice a problem, unexpected behaviour, or something that does not match my requirements, I describe it to the coding agent and direct the agent to investigate it. I do not manually inspect, debug, edit, or correct the code myself.
+
+In many cases, especially with OpenAI Codex, the coding agent inspects its own work, runs checks, identifies bugs, and makes corrections before presenting the result to me. Sometimes the final result works without me finding any bugs during my own testing.
+
+My role is to control the direction of the project, evaluate the behaviour of the result, provide feedback when necessary, and decide what should happen next. The AI coding tools remain responsible for generating and modifying the code.
 
 The main tools I use are:
 
-- **OpenAI Codex** — my primary coding tool
-- **Claude Code**
-- **Google Antigravity**
+- OpenAI Codex — my primary coding tool
+- Claude Code
+- Google Antigravity
 
-The languages and technologies depend on the project and may include Python, C#, JavaScript, HTML, databases, networking, and other systems.
+The languages and technologies used depend on the project and may include Python, C#, JavaScript, HTML, SQL, SQLite, MongoDB, MariaDB, and other project-specific tools.
 
-## Windows
+These are technologies that appear in the projects I direct. I am not presenting myself as a specialist or analyst in every technical area involved, and I do not consider myself a networking analyst.
+
+Windows
 
 Windows is the main platform for all of my projects, including my AI-generated software, private servers, model experiments, and other tools.
 
@@ -47,13 +61,13 @@ I also know a lot about Windows and experiment with Windows Setup, OOBE, Windows
 
 My deployment experiments do not involve manually applying Windows images with DISM or manually creating and configuring the full partition structure.
 
-Instead, I allow Windows Setup to complete the normal installation stage, then take control during the **Getting Ready** phase by crashing **WinDeploy**. From there, I manually work with the remaining setup state, user configuration, registry values, and other parts of the deployment process.
+Instead, I allow Windows Setup to complete the normal installation stage, then take control during the Getting Ready phase by crashing WinDeploy. From there, I manually work with the remaining setup state, user configuration, registry values, and other parts of the deployment process.
 
-This Windows deployment work is separate from my normal coding workflow. I perform the deployment process manually, while the code for my software projects is generated using AI.
+This Windows deployment work is separate from my normal coding workflow. I perform the deployment process manually, while all of the code in my software projects is generated and modified using AI.
 
 Windows-related projects may appear on this account, and Windows will remain the main platform for almost everything I build. However, I do not intend to publish my personal Windows deployment process or dedicated deployment projects here.
 
-## A note about AI and accessibility
+A note about AI and accessibility
 
 Yes, my bio and parts of this README were written with help from ChatGPT.
 
@@ -63,17 +77,19 @@ Raw dictation can easily turn what I mean into a linguistic mess, especially whe
 
 I use the same approach with coding tools. I often give instructions through dictation, audio-recording features, or speech-to-text instead of manually typing long prompts.
 
-Using AI for writing does not mean the ideas came from the AI. I provide the information, read every paragraph, correct inaccuracies, reject descriptions that do not represent me, and decide what the final text should say.
+Using AI for writing does not mean the ideas came from the AI. I provide the information, read every paragraph, correct inaccuracies in the writing, reject descriptions that do not represent me, and decide what the final text should say.
 
 I am also not hiding the fact that all of my project code is AI-generated. This profile is openly about building software with AI.
 
+I direct the projects, define the requirements, run and visually test the results, report problems when I find them, and decide what changes should be made. The AI coding tools generate, inspect, debug, correct, and modify the code.
+
 If AI-generated writing or code bothers you, this probably is not the account for you. You are free not to follow me.
 
-## Previous projects
+Previous projects
 
 This account is a fresh start for my newer projects.
 
-My previous GitHub account, **Core Studio Dev AI**, contains older projects such as Crystal Browser, its mobile version, and several experimental tools.
+My previous GitHub account, Core Studio Dev AI, contains older projects such as Crystal Browser, its mobile version, several Supercell private-server projects, and other experimental tools.
 
 Many of those projects were developed on a laptop I no longer use for development. I still have the laptop, but I have no intention of continuing most of those projects.
 
@@ -83,8 +99,8 @@ One example was a Windows deployment tool built with Claude Code. That old tool 
 
 The old account now serves mostly as an archive of an earlier development era.
 
-## What to expect
+What to expect
 
-Expect Brawl Stars private-server projects, AI-generated tools and software, transformer-based model training, narrow-task model experiments, occasional larger language-model projects, Windows-based projects, and whatever else I decide is interesting enough to build.
+Expect Supercell private-server projects—including Brawl Stars and Squad Busters servers—AI-generated tools and software, transformer-based model training, narrow-task model experiments, occasional larger language-model projects, Windows-based projects, and whatever else I decide is interesting enough to build.
 
-**Stay tuned for cool projects.**
+Stay tuned for cool projects.
