@@ -46,7 +46,7 @@ This testing is separate from training my own transformer-based models. The goal
 
 When a model meets those requirements, I switch to it as my default across everything I build. I continue using it until another frontier model proves better suited to my workflow.
 
-My current default is **GPT-5.6 Sol with Medium reasoning**, used through **OpenAI Codex**. This is not a permanent preference and may change when a newer frontier model proves efficient enough.
+My current default is **Claude Opus 5.5 with Medium reasoning**, used through **OpenAI Codex**. This is not a permanent preference and may change when a newer frontier model proves efficient enough.
 
 My tests are not limited to simple benchmark-style questions. I evaluate models through practical tasks such as:
 
